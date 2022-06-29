@@ -1,0 +1,24 @@
+
+{
+    "header": {
+        "logo": ".logo",
+        "leftLink": ".left_link"
+    },
+
+
+    "about": {
+        "History": "History & Milestone",
+        "Quaid": "Quaid-e-Azam Muhammad Ali Jinnah's Will "
+    },
+
+
+    "Administration": {
+        "VC": "Vice Chancellor ",
+        "VC_Msg": "Vice Chancellor Message ",
+        "Chief_Org": "Chief Organizer Societies / KU",
+        "Dirct": "Directorate of Students Affairs",
+        "Provost": "Provost",
+        "Chief_Proct": "Chief Proctor Office",
+        "ORIC": "ORIC"
+    }
+}
