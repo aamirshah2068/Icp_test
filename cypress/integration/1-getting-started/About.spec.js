@@ -1,12 +1,9 @@
 import { about } from '../../support/PageObject/About'
 
 describe('Testing links', () => {
-    it('Get all links status', () => {
+    it('Check all links status', () => {
         cy.visit('https://icp.edu.pk/page.php?abc=201412080154134')
         cy.get('a').each(($el) => {
-            // const herf = $el.attr('href');
-            // cy.log(herf);
-
             cy.request('https://icp.edu.pk/page.php?abc=201412080154134')
                 .should((response) => {
                     expect(response.status).to.eq(200)

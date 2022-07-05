@@ -1,24 +1,58 @@
-
 {
-    "header": {
-        "logo": ".logo",
-        "leftLink": ".left_link"
-    },
-
-
     "about": {
-        "History": "History & Milestone",
-        "Quaid": "Quaid-e-Azam Muhammad Ali Jinnah's Will "
+        "History": "//a[normalize-space()='History & Milestone']",
+        "Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah's Will'])[1]",
+        
+        "His_Peshawar": "(//a[normalize-space()='History of Islamia College Peshawar'])",
+        "His_Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah Will'])"
     },
-
-
     "Administration": {
-        "VC": "Vice Chancellor ",
-        "VC_Msg": "Vice Chancellor Message ",
-        "Chief_Org": "Chief Organizer Societies / KU",
-        "Dirct": "Directorate of Students Affairs",
-        "Provost": "Provost",
-        "Chief_Proct": "Chief Proctor Office",
-        "ORIC": "ORIC"
+        "admin": "(//a[contains(text(),'Administration')])[2]",
+        "VC": "(//a[normalize-space()='Vice Chancellor'])[1]",
+        "VC_Msg": "(//a[normalize-space()='Vice Chancellor Message'])[1]",
+        "Chief_Org": "(//a[normalize-space()='Chief Organizer Societies / KU'])[1]",
+        "Dirct": "(//a[normalize-space()='Directorate of Students Affairs'])[1]",
+        "Provost": "(//a[normalize-space()='Provost'])[1]",
+        "Chief_Proct": "(//a[normalize-space()='Chief Proctor and Staff Proctor'])[1]",
+        "Stud_Proct": "(//a[normalize-space()='Students Proctor'])[1]",
+        "FAQ": "(//a[normalize-space()='F.A.Q'])[1]",
+        "Uniform": "(//a[normalize-space()='Uniform / Dress Code'])[1]",
+        "Pict_Gallery": "(//a[contains(text(),'Picture Gallery')])[1]",
+        "ORIC": "//a[normalize-space()='ORIC']",
+
+        "Related_Link": "(//div[@class='heading_new'])[1]",
+        "VC_Link": "(//a[normalize-space()='Vice-Chancellor Honour Board'])[1]",
+        "VC_msg_Link": "(//a[contains(text(),'Vice-Chancellor')])[2]",
+        "Facutly_Link": "(//a[normalize-space()='Faculty wise Departments'])[1]",
+
+        "Khyber_Union_Link": "(//a[normalize-space()='Khyber Union - Introduction'])[1]",
+        "Ku_Life_Link": "(//a[normalize-space()='KU Life Honorary Members'])[1]",
+        "KU_Pre_Link": "(//a[normalize-space()='KU Presidents'])[1]",
+        "KU_Honor_Link": "(//a[normalize-space()='KU Role of Honour'])[1]",
+        "Treasure_Link": "(//a[contains(text(),'Treasurer')])[1]",
+        "Co_curricual": "(//a[normalize-space()='Co-Curricular Activities & Societies'])[1]",
+
+        "DSA_Link": "(//a[normalize-space()='DSA Introduction'])[1]",
+        "DSA_Colo_Link": "(//a[normalize-space()='DSA Colloquium and Workshops'])[1]",
+        "DSA_Finance_Link": "//a[normalize-space()='DSA Fiannacial Aid / Loan to the Students']",
+        "DSA_Freeship_Link": "//a[normalize-space()='DSA Freeships (University Own Resources)']",
+        "DSA_Main_Link": "//a[normalize-space()='DSA Main Duties']",
+        "DSA_Pre_Link": "//a[normalize-space()='DSA Peripheral Campuses']",
+        "DSA_Schlor_Link": "//a[normalize-space()='DSA Scholarships']",
+        "DSA_TasK_Link": "//a[normalize-space()='DSA Tasks Undertaken']",
+
+        "Hostel_Link": "//a[normalize-space()='Hostel Warden List.']",
+        "Provost_Link": "//a[normalize-space()='Provost Office']",
+
+        "Proctorial_Link": "//a[normalize-space()='Proctorial Board']",
+        "Student_pro_Link": "//a[normalize-space()='Students Proctorial Board']",
+        "Picture_Gallery_Link": "//div[@class='left_link']//a[contains(text(),'Picture Gallery')]",
+        "Uniform_Link": "//a[normalize-space()='Uniform for BS and Master students']",
+
+        "Office_Research_Link": "//a[contains(text(),'OFFICE OF RESEARCH, INNOVATION AND COMMERCIALIZATI')]",
+        "Mission_Vision_Link": "//a[normalize-space()='Mission & Vision']",
+        "Research_funding_Link": "//a[normalize-space()='Research Funding Opportunities']",
+        "List_funded_Link": "//a[normalize-space()='List of Funded Research projects']",
+        "Staff_ORIC_Link": "//a[normalize-space()='Staff Directory ORIC']"
     }
 }
