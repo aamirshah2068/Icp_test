@@ -24,6 +24,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-Cypress.Commands.add( "buttonClick", (selector) => {
-    cy.xpath(selector).click({force: true})
+Cypress.Commands.add("buttonClick", (selector) => {
+    cy.xpath(selector).click({ force: true })
+})
+||
+Cypress.Commands.add("Click", (selector) => {
+    cy.contains(selector).click({ force: true })
 })

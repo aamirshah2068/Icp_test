@@ -5,7 +5,7 @@ class Administration {
         cy.contains(/Administration/i).should('be.visible')
 
         cy.buttonClick(selectors.Administration.VC)
-        cy.contains(/Vice Chancellor /i).should('be.visible')
+        cy.contains(/Vice Chancellor/i).should('be.visible')
 
         cy.buttonClick(selectors.Administration.VC_Msg)
         cy.contains(/Vice Chancellor Message/i).should('be.visible')

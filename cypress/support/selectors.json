@@ -1,11 +1,28 @@
 {
+    "Logo": {
+        "Left_Logo": "",
+        "Right_Logo": ""
+    },
+
+    "Buttons": {
+        "Input_field": "",
+        "Search_btn": "",
+        "Facebook": "",
+        "ICP_Anthem_btn": "",
+        "Staff_Profile": "",
+        "Download": ""
+    },
+
     "about": {
         "History": "//a[normalize-space()='History & Milestone']",
         "Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah's Will'])[1]",
         
         "His_Peshawar": "(//a[normalize-space()='History of Islamia College Peshawar'])",
-        "His_Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah Will'])"
+        "His_Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah Will'])",
+
+        "Related_Links": ""
     },
+
     "Administration": {
         "admin": "(//a[contains(text(),'Administration')])[2]",
         "VC": "(//a[normalize-space()='Vice Chancellor'])[1]",
@@ -21,6 +38,7 @@
         "ORIC": "//a[normalize-space()='ORIC']",
 
         "Related_Link": "(//div[@class='heading_new'])[1]",
+
         "VC_Link": "(//a[normalize-space()='Vice-Chancellor Honour Board'])[1]",
         "VC_msg_Link": "(//a[contains(text(),'Vice-Chancellor')])[2]",
         "Facutly_Link": "(//a[normalize-space()='Faculty wise Departments'])[1]",
@@ -54,5 +72,163 @@
         "Research_funding_Link": "//a[normalize-space()='Research Funding Opportunities']",
         "List_funded_Link": "//a[normalize-space()='List of Funded Research projects']",
         "Staff_ORIC_Link": "//a[normalize-space()='Staff Directory ORIC']"
+    },
+
+    "Academic": {
+        "Dept": "(//a[contains(text(),'Departments')])[1]",
+        "Directorate": "(//a[normalize-space()='Directorate of Higher Studies'])[1]",
+        "Center_omic": "(//a[normalize-space()='Centre for Omic Sciences'])[1]",
+        "Center_Materials": "(//a[normalize-space()='Centre for Material Sciences'])[1]",
+        "Student_Regulation": "(//a[normalize-space()='Students Conduct and Discipline Regulations 2019'])[1]",
+
+        "Related_Links": "",
+
+        "Administration": "Administration",
+        "VC_Honour": "Vice-Chancellor Honour Board",
+        "VC_Message": "Vice-Chancellor Message",
+        "Faculty_Departments": "Faculty wise Departments",
+
+        "Approved": "Approved",
+        "Academic_Calen": "Academic Calendar",
+        "Contact_Us": "Contact Us",
+
+        "Centre_intro": "Centre introduction",
+        "Degree_Prog": "Degree Programs",
+        "Criteria_MPhil": "Minimum Criteria for Admission in MPhil and PhD Programs",
+        "Research_Facilities": "Research Facilities",
+        "Collaboration": "Collaboration with National",
+        "Staff_Direct": "Staff Directory",
+
+        "Mission": "Mission",
+        "Criteri_MPhil": "Criteria for Admission in M.Phil",
+        "Staff_Directory": "Staff Directory"
+    },
+
+    "Admission": {
+        "Dist": "FA/FSc Boys seat distribution",
+        "Fee_structre": "FA/FSc Girls seats/Fee Structure",
+        "Refund": "FA/FSc refund policy",
+        "FA_Fees": "FA/FSc Girls seats/Fee Structure",
+        "Quota": "FA/FSc Various Quota Seats",
+        "Apply_FA": "Apply online for FA/FSc",
+        "Apply_BA": "Apply online for BS/BBA/LLB",
+        "Apply_MPhil": "Apply online for MPhil/PhD",
+
+        "Related_Links": ""
+    },
+
+    "Examination": {
+        "": "",
+
+        "Related_Links": ""
+    },
+
+    "Centenary": {
+        "Progrm_Pic": "Program and Pictures.",
+        "Donations": "Donations",
+        "Other_Donation": "Other Donations",
+
+        "Biography": "",
+        "Teachers_Bio": "Teachers Biography",
+        "Students_Bio": "Students Biography",
+
+        "Related_Links": "",
+        "Cent_celebration": "",
+        "Cent_celebra_prg": "",
+        "Rare_Photo": "",
+        "Pres_khyber": "",
+        "Progs_Pic": "",
+        "Day_2": "",
+        "Day_3": "",
+        "Appreciation_Letter": "",
+        "Other_donate": "",
+        "Minutes": "",
+        "Donate": "",
+        "cent_Cele_Anthem": "",
+        "ICP_Anthem_enthralls": "",
+        "Min_Meeting": "",
+        "First_Meeting": "",
+        "Second_Meeting": "",
+        "Reg_Cent": "",
+        "Teach_Bio": "",
+        "Stud_Bio": "",
+        "Prog_pic": ""
+    },
+
+    "Achievements": {
+        "Senior_Alumni": "Senior Alumni Association",
+        "Curricular": "Curricular",
+
+        "Sports": "Sports",
+        "Khyber_Union": "Khyber Union",
+        "Student_Creativity": "Students Creativity Corner (SCC)",
+
+        "Related_Links": "",
+        "Senior_Alumn": "",
+        "Cabinet_Senior_Alumni": "Cabinet of the Senior Alumni Association",
+        "Members_Alumni": "Members of Senior Alumni Association",
+        "SENIOR_ALUMNI_2017": "SENIOR ALUMNI ASSOCIATION TITLED SCHOLARSHIPS ACADEMIC YEAR 2017",
+        "SENIOR_ALUMNI_2016": "SENIOR ALUMNI ASSOCIATION TITLED SCHOLARSHIPS ACADEMIC YEAR 2016",
+        "SENIOR_ALUMNI_MEETIN2017": "SENIOR ALUMNI ASSOCIATION GENRAL MEETIN 2017",
+        "SENIOR_ALUMNI_MEETIN2016": "SENIOR ALUMNI ASSOCIATION GENRAL MEETIN 2016",
+        "SENIOR_ALUMNI_MEETIN201": "SENIOR ALUMNI ASSOCIATION GENRAL MEETIN 201",
+        "Constitution_Senior_Association": "Constitution of the Senior  Alumni Association",
+        "Senior_Alumni_ceremony": "Senior Alumni Association Oath taking ceremony",
+
+        "curicual": "",
+        "Memorandum": "",
+        "MPhil_Produced": "",
+        "Phd_Produced": "",
+        "Research_Publication": "",
+        "Dep_Wise": ""
+    },
+
+    "Media": {
+        "ICP_Anthem": "ICP Official Anthem",
+        "Daily_News": "Daily News papers cuttings",
+        "Right_Info": "Right to Information Related Data",
+        "Video_Gallery": "Video Gallery of Islamia College Peshawar",
+        "Picture_Gallery": "Picture Gallery of Islamia College Peshawar",
+
+        "Related_Links": ""
+
+    },
+
+    "Contact": {
+        "Contact_Us": "Contact Us",
+        "Contacts_Directory": "Contacts Directory",
+        "Address_ICP": "Address & Location Map of Islamia College Peshawar",
+
+        "Related_Links": ""
+    },
+
+    "Carousel": {
+        "Rght": "",
+        "lft": ""
+    },
+
+    "New_Event": {
+
+    },
+
+    "Important_Link": {
+        "Journals": "",
+        "Central_Library": "",
+        "QEC": "",
+        "LMS": "",
+        "DITS": "",
+        "Tenders": "",
+        "Press_Clippings": "",
+        "Scholarships_btn": "",
+        "Jobs": ""
+    },
+
+    "Footer": {
+        "Home": "",
+        "About_Us": "",
+        "Department": "",
+        "Faclty": "",
+        "Pic_Gallery": "",
+        "Contct_Us": ""
     }
 }

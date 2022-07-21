@@ -1,6 +1,7 @@
 import selectors from '../selectors.json'
 class About {
     History() {
+
         //Verify that the "History and miltestone" drop down item is loaded successfully
         cy.buttonClick(selectors.about.History)
         cy.contains(/HISTORY OF ISLAMIA COLLEGE PESHAWAR/i).should('be.visible')
