@@ -14,10 +14,11 @@ class Achievements {
 
         cy.buttonClick(selectors.Achievements.SENIOR_ALUMNI_MEETIN201)
         cy.contains(/Image Gallery/i).should('be.visible')
+        
         cy.wait(5000)
 
         //Curricular drop down
-        cy.buttonClick(selectors.Achievements.Senior_Alumni)
+        // cy.buttonClick(selectors.Achievements.Senior_Alumni)
 
         cy.buttonClick(selectors.Achievements.Curricular)
         cy.contains(/CURRICULAR/i).should('be.visible')

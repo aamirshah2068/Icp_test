@@ -202,13 +202,31 @@
 
     "Media": {
         "ICP_Anthem": "//a[@href='https://www.facebook.com/www.icp.edu.pk/videos/1050430944967683/']",
-        "Daily_News": "//a[@href='https://icp.edu.pk/notice/cutting.php']",
+        "Daily": "//a[@href='https://icp.edu.pk/notice/cutting.php']",
         "Right_Info": "//a[@href='https://icp.edu.pk/page.php?abc=201608181052425']",
         "Video_Gallery": "//a[@href='https://icp.edu.pk/page.php?abc=201504020513394']",
         "Picture_Gallery": "//a[@href='https://icp.edu.pk/page.php?abc=201412240924466']",
 
-        "Related_Links": ""
+        "Related_Links": "",
+        "Right_infom": "//a[@href='page.php?abc=201608181052425']",
+        "Minutes_meeting": "//a[@href='page.php?abc=201608181053066]",
+        "Merit": "//a[@href='page.php?abc=201608181054374']",
+        "List_recruited": "//a[@href='page.php?abc=201608181055284']",
+        "Rules_regulation": "//a[@href='page.php?abc=201608181056006']",
+        "Budget": "//a[@href='page.php?abc=201608181056325']",
+        "Total_Sanctioned": "//a[@href='page.php?abc=201608181057506']",
+        "Act_statutes": "//a[@href='page.php?abc=201705021225004']",
 
+        "Video_Galery": "",
+        "Newspaper": "//a[@href='page.php?abc=20141224091815622233']",
+        "Anthem": "//a[@href='page.php?abc=201412240921076']",
+        "Picture_gal": "//a[@href='page.php?abc=201412240924466']",
+        "Inter": "//a[@href='page.php?abc=201503251003444']",
+        "Video": "//a[@href='page.php?abc=201504020513394']",
+        "Notice": "//a[@href='page.php?abc=201505080537356']",
+        "Old_islamian": "//a[@href='page.php?abc=201506110908556']",
+        "Staff_notice": "//a[@href='page.php?abc=201509150407225']",
+        "web_admin": "//a[@href='page.php?abc=201510200457346']"
     },
 
     "Contact": {
@@ -242,10 +260,10 @@
 
     "Footer": {
         "Home": "",
-        "About_Us": "",
-        "Department": "",
-        "Faclty": "",
-        "Pic_Gallery": "",
-        "Contct_Us": ""
+        "About_Us": "//a[@href='http://www.icp.edu.pk/page.php?abc=201412080154134']",
+        "Department": "//a[@href='http://www.icp.edu.pk/page.php?abc=201412241059034']",
+        "Faclty": "//a[@href='http://www.icp.edu.pk/staff_directory/'']",
+        "Pic_Gallery": "//a[@href='http://www.icp.edu.pk/page.php?abc=201412240924466']",
+        "Contct_Us": "//a[@href='http://www.icp.edu.pk/page.php?abc=201412300248325']"
     }
 }
