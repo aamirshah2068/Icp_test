@@ -35,10 +35,10 @@ class Centenary {
         cy.contains(/PROGRAMS PICTURES/i).should('be.visible')
 
         cy.buttonClick(selectors.Centenary.Day_2)
-        cy.contains(/DAY 2 (SATURDAY, DECEMBER 12, 2015)/i).should('be.visible')
+        cy.contains(/DAY 2/i).should('be.visible')
 
         cy.buttonClick(selectors.Centenary.Day_3)
-        cy.contains(/DAY 3 (SUNDAY, DECEMBER 13, 2015)/i).should('be.visible')
+        cy.contains(/DAY 3/i).should('be.visible')
 
         cy.buttonClick(selectors.Centenary.Appreciation_Letter)
         cy.contains(/APPRECIATION LETTER & GRATITUDE FOR CONTRIBUTION IN CENTENARY CELEBRATION./i).should('be.visible')
@@ -77,7 +77,7 @@ class Centenary {
         cy.contains(/STUDENTS BIOGRAPHY/i).should('be.visible')
 
         cy.buttonClick(selectors.Centenary.Prog_pic)
-        cy.contains(/PROGRAMS PICTURE BY EXTERNAL PHOTOGRAPHERS/i).should('be.visible')        
+        cy.contains(/PROGRAMS PICTURE BY EXTERNAL PHOTOGRAPHERS/i).should('be.visible')       
     }
 }
 export const centenary = new Centenary()

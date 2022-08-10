@@ -1,7 +1,7 @@
 {
     "Logo": {
-        "Left_Logo": "",
-        "Right_Logo": ""
+        "Left_Logo": "//img[@src='https://www.icp.edu.pk/icp_img/s5_logo.png']",
+        "Right_Logo": "//img[@src='https://www.icp.edu.pk/icp_img/100_year.png']"
     },
 
     "Buttons": {
@@ -15,12 +15,12 @@
 
     "about": {
         "History": "//a[normalize-space()='History & Milestone']",
-        "Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah's Will'])[1]",
-        
-        "His_Peshawar": "(//a[normalize-space()='History of Islamia College Peshawar'])",
-        "His_Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah Will'])",
+        "Quaid": "//a[@href='https://icp.edu.pk/page.php?abc=201412080200115']",
 
-        "Related_Links": ""
+        "Related_Links": "",
+        "His_Peshawar": "(//a[normalize-space()='History of Islamia College Peshawar'])",
+        "His_Quaid": "(//a[normalize-space()='Quaid-e-Azam Muhammad Ali Jinnah Will'])" 
+
     },
 
     "Administration": {
@@ -37,36 +37,38 @@
         "Pict_Gallery": "(//a[contains(text(),'Picture Gallery')])[1]",
         "ORIC": "//a[normalize-space()='ORIC']",
 
-        "Related_Link": "(//div[@class='heading_new'])[1]",
 
-        "VC_Link": "(//a[normalize-space()='Vice-Chancellor Honour Board'])[1]",
-        "VC_msg_Link": "(//a[contains(text(),'Vice-Chancellor')])[2]",
-        "Facutly_Link": "(//a[normalize-space()='Faculty wise Departments'])[1]",
+        "Related_Link": "",
+        "Adminstration": "",
+        "Facutly_Link": "//a[@href='page.php?abc=201412241059034']",
 
-        "Khyber_Union_Link": "(//a[normalize-space()='Khyber Union - Introduction'])[1]",
-        "Ku_Life_Link": "(//a[normalize-space()='KU Life Honorary Members'])[1]",
-        "KU_Pre_Link": "(//a[normalize-space()='KU Presidents'])[1]",
-        "KU_Honor_Link": "(//a[normalize-space()='KU Role of Honour'])[1]",
-        "Treasure_Link": "(//a[contains(text(),'Treasurer')])[1]",
-        "Co_curricual": "(//a[normalize-space()='Co-Curricular Activities & Societies'])[1]",
+        "Chief_organizer": "",
+        "Khyber_Union_Link": "//a[@href='page.php?abc=201504300338206']",
+        "Ku_Life_Link": "//a[@href='page.php?abc=201504300339374']",
+        "KU_Pre_Link": "//a[@href='page.php?abc=201504300341385']",
+        "KU_Honor_Link": "//a[@href='page.php?abc=201504300347176']",
+        "Treasure_Link": "//a[@href='page.php?abc=201601130600414']",
 
-        "DSA_Link": "(//a[normalize-space()='DSA Introduction'])[1]",
-        "DSA_Colo_Link": "(//a[normalize-space()='DSA Colloquium and Workshops'])[1]",
-        "DSA_Finance_Link": "//a[normalize-space()='DSA Fiannacial Aid / Loan to the Students']",
-        "DSA_Freeship_Link": "//a[normalize-space()='DSA Freeships (University Own Resources)']",
-        "DSA_Main_Link": "//a[normalize-space()='DSA Main Duties']",
-        "DSA_Pre_Link": "//a[normalize-space()='DSA Peripheral Campuses']",
-        "DSA_Schlor_Link": "//a[normalize-space()='DSA Scholarships']",
-        "DSA_TasK_Link": "//a[normalize-space()='DSA Tasks Undertaken']",
+        "DSA_Link": "",
+        "DSA_Colo_Link": "//a[@href='page.php?abc=201412230109136']",
+        "DSA_Finance_Link": "//a[@href='page.php?abc=201412230111016']",
+        "DSA_Freeship_Link": "//a[@href='page.php?abc=201412230112274']",
+        "DSA_Main_Link": "//a[@href='page.php?abc=201412230113425']",
+        "DSA_Pre_Link": "//a[@href='page.php?abc=201412230115244']",
+        "DSA_Schlor_Link": "//a[@href='page.php?abc=201412230117086']",
+        "DSA_TasK_Link": "//a[@href='page.php?abc=201412230120576']",
 
-        "Hostel_Link": "//a[normalize-space()='Hostel Warden List.']",
-        "Provost_Link": "//a[normalize-space()='Provost Office']",
+        "Provst": "",
+        "Hostel_Link": "//a[@href='page.php?abc=201508280644144']",
+        "Provost_Link": "//a[@href='page.php?abc=201508280727466']",
 
+        "Chief Proctor Office": "",
         "Proctorial_Link": "//a[normalize-space()='Proctorial Board']",
         "Student_pro_Link": "//a[normalize-space()='Students Proctorial Board']",
         "Picture_Gallery_Link": "//div[@class='left_link']//a[contains(text(),'Picture Gallery')]",
         "Uniform_Link": "//a[normalize-space()='Uniform for BS and Master students']",
 
+        "ORC": "",
         "Office_Research_Link": "//a[contains(text(),'OFFICE OF RESEARCH, INNOVATION AND COMMERCIALIZATI')]",
         "Mission_Vision_Link": "//a[normalize-space()='Mission & Vision']",
         "Research_funding_Link": "//a[normalize-space()='Research Funding Opportunities']",
@@ -75,120 +77,135 @@
     },
 
     "Academic": {
-        "Dept": "(//a[contains(text(),'Departments')])[1]",
-        "Directorate": "(//a[normalize-space()='Directorate of Higher Studies'])[1]",
-        "Center_omic": "(//a[normalize-space()='Centre for Omic Sciences'])[1]",
-        "Center_Materials": "(//a[normalize-space()='Centre for Material Sciences'])[1]",
-        "Student_Regulation": "(//a[normalize-space()='Students Conduct and Discipline Regulations 2019'])[1]",
+        "Dept": "//a[@href='https://icp.edu.pk/page.php?abc=201412241059034']",
+        "Directorate": "//a[@href='https://icp.edu.pk/page.php?abc=201608040611214']",
+        "Center_omic": "//a[@href='https://icp.edu.pk/page.php?abc=201812270910056']",
+        "Center_Materials": "//a[@href='https://icp.edu.pk/page.php?abc=202001220511156']",
+        "Student_Regulation": "//a[@href='https://icp.edu.pk/images/notic_board/student_cod_conduct_2019.pdf']",
 
         "Related_Links": "",
+        "Depart": "",
+        "Administration": "//a[@href='page.php?abc=201412080210276']",
+        "VC_Honour": "//a[@href='page.php?abc=201412101234155']",
+        "VC_Message": "//a[@href='page.php?abc=201412080207235']",
+        "Faculty_Departments": "//a[@href='page.php?abc=201412241059034']",
 
-        "Administration": "Administration",
-        "VC_Honour": "Vice-Chancellor Honour Board",
-        "VC_Message": "Vice-Chancellor Message",
-        "Faculty_Departments": "Faculty wise Departments",
+        "Directorate of Higher studies": "",
+        "Approved": "//a[@href='page.php?abc=201608040611214']",
+        "Academic_Calen": "//a[@href='page.php?abc=201608040612154']",
+        "Contact_Us": "//a[@href='page.php?abc=201608110547435']",
 
-        "Approved": "Approved",
-        "Academic_Calen": "Academic Calendar",
-        "Contact_Us": "Contact Us",
+        "Center of omic center": "",
+        "Centre_intro": "//a[@href='page.php?abc=201812270910056']",
+        "Degree_Prog": "//a[@href='page.php?abc=201812270914526']",
+        "Criteria_MPhil": "//a[@href='page.php?abc=201812270921026']",
+        "Research_Facilities": "//a[@href='page.php?abc=201812270927084']",
+        "Collaboration": "//a[@href='page.php?abc=201812270930194']",
+        "Staff_Direct": "//a[@href='https://icp.edu.pk/staff_directory/detail.php?abc=127']",
 
-        "Centre_intro": "Centre introduction",
-        "Degree_Prog": "Degree Programs",
-        "Criteria_MPhil": "Minimum Criteria for Admission in MPhil and PhD Programs",
-        "Research_Facilities": "Research Facilities",
-        "Collaboration": "Collaboration with National",
-        "Staff_Direct": "Staff Directory",
-
-        "Mission": "Mission",
-        "Criteri_MPhil": "Criteria for Admission in M.Phil",
-        "Staff_Directory": "Staff Directory"
+        "Center of Materials Sciences": "",
+        "Mission": "//a[@href='page.php?abc=202001220511156']",
+        "Criteri_MPhil": "//a[@href='page.php?abc=202001220515416']",
+        "Staff_Directory": "//a[@href='https://icp.edu.pk/staff_directory/detail.php?abc=128']"
     },
 
     "Admission": {
-        "Dist": "FA/FSc Boys seat distribution",
-        "Fee_structre": "FA/FSc Girls seats/Fee Structure",
-        "Refund": "FA/FSc refund policy",
-        "FA_Fees": "FA/FSc Girls seats/Fee Structure",
-        "Quota": "FA/FSc Various Quota Seats",
-        "Apply_FA": "Apply online for FA/FSc",
-        "Apply_BA": "Apply online for BS/BBA/LLB",
-        "Apply_MPhil": "Apply online for MPhil/PhD",
+        "Dist": "//a[@href='https://icp.edu.pk/page.php?abc=201412161253496']",
+        "Fee_structre": "//a[@href='https://icp.edu.pk/page.php?abc=201412161254536']",
+        "Refund": "//a[@href='https://icp.edu.pk/page.php?abc=201412161255516']",
+        "FA_Fees": "//a[@href='https://icp.edu.pk/page.php?abc=202109180510514']",
+        "Quota": "//a[@href='https://icp.edu.pk/page.php?abc=202109180515125']",
+        "Apply_FA": "Apply online for FA",
+        "Apply_BA": "Apply online for BS",
+        "Apply_MPhil": "//a[@href='https://icp.edu.pk/HS/']",
 
         "Related_Links": ""
     },
 
     "Examination": {
-        "": "",
+        "No drop down": "",
 
-        "Related_Links": ""
+        "Related_Links": "",
+        "Exam": "//a[@href='https://icp.edu.pk/exams/index.php?abc=202010200121144']",
+        "News_update": "//a[@href='index.php?abc=202010200121144']",
+        "Date_sheets": "//a[@href='index.php?abc=202010200123306']",
+        "Results": "//a[@href='https://icp.edu.pk/exams/result.php?abc=202011171049125']",
+        "Examination_rules": "//a[@href='index.php?abc=202010200124206']",
+        "Downloads": "//a[@href='index.php?abc=202010200124346']",
+        "semester_toppers": "//a[@href='index.php?abc=202011041006225']",
+        "MPhil_Rollno": "//a[@href='index.php?abc=202202040258295']",
+        "Entry_Test": "//a[@href='index.php?abc=202202080347064']",
+        "MA_Composite": "//a[@href='index.php?abc=202202090929415']",
+        "MPhil_provisionally": "//a[@href='index.php?abc=202202100401036']",
+        "Islamia_collegiate": "//a[@href='index.php?abc=202203240257195']",
+        "Islamia_collegiate_waitinglist": "//a[@href='index.php?abc=202204020507285']"
     },
 
     "Centenary": {
-        "Progrm_Pic": "Program and Pictures.",
-        "Donations": "Donations",
-        "Other_Donation": "Other Donations",
+        "Progrm_Pic": "//a[@href='https://icp.edu.pk/page.php?abc=201512010424176']",
+        "Donations": "//a[@href='https://icp.edu.pk/page.php?abc=201503040400044']",
+        "Other_Donation": "//a[@href='https://icp.edu.pk/page.php?abc=201602100618176']",
 
         "Biography": "",
-        "Teachers_Bio": "Teachers Biography",
-        "Students_Bio": "Students Biography",
+        "Teachers_Bio": "//a[@href='https://icp.edu.pk/page.php?abc=201501150706376']",
+        "Students_Bio": "//a[@href='https://icp.edu.pk/page.php?abc=201502270528496']",
 
         "Related_Links": "",
-        "Cent_celebration": "",
-        "Cent_celebra_prg": "",
-        "Rare_Photo": "",
-        "Pres_khyber": "",
-        "Progs_Pic": "",
-        "Day_2": "",
-        "Day_3": "",
-        "Appreciation_Letter": "",
-        "Other_donate": "",
-        "Minutes": "",
-        "Donate": "",
-        "cent_Cele_Anthem": "",
-        "ICP_Anthem_enthralls": "",
-        "Min_Meeting": "",
-        "First_Meeting": "",
-        "Second_Meeting": "",
-        "Reg_Cent": "",
-        "Teach_Bio": "",
-        "Stud_Bio": "",
-        "Prog_pic": ""
+        "Pict_and_Program": "",
+        "Cent_celebration": "//a[@href='page.php?abc=201412160117396']",
+        "Cent_celebra_prg": "//a[@href='page.php?abc=201512010424176']",
+        "Rare_Photo": "//a[@href='page.php?abc=201512031203325']",
+        "Pres_khyber": "//a[@href='page.php?abc=201512031204366']",
+        "Progs_Pic": "//a[@href='page.php?abc=201512070803425']",
+        "Day_2": "//a[@href='page.php?abc=201512110347255']",
+        "Day_3": "//a[@href='page.php?abc=201512110349164']",
+        "Appreciation_Letter": "//a[@href='page.php?abc=201512300841536']",
+        "Other_donate": "//a[@href='page.php?abc=201602100618176']",
+        "Minutes": "//a[@href='page.php?abc=201510010529224']",
+        "Donate": "//a[@href='page.php?abc=201503040400044']",
+        "cent_Cele_Anthem": "//a[@href='page.php?abc=201412160119456']",
+        "ICP_Anthem_enthralls": "//a[@href='page.php?abc=201412160120504']",
+        "Min_Meeting": "//a[@href='page.php?abc=201412160128045']",
+        "First_Meeting": "//a[@href='page.php?abc=201412160131444']",
+        "Second_Meeting": "//a[@href='page.php?abc=201412160132474']",
+        "Reg_Cent": "//a[@href='page.php?abc=201412160134044']",
+        "Teach_Bio": "//a[@href='page.php?abc=201501150706376']",
+        "Stud_Bio": "//a[@href='page.php?abc=201502270528496']",
+        "Prog_pic": "//a[@href='page.php?abc=201605230506066']"
     },
 
     "Achievements": {
-        "Senior_Alumni": "Senior Alumni Association",
-        "Curricular": "Curricular",
+        "Senior_Alumni": "//a[@href='https://icp.edu.pk/page.php?abc=201803280504016']",
+        "Curricular": "//a[@href='https://icp.edu.pk/page.php?abc=201505200442076']",
 
-        "Sports": "Sports",
-        "Khyber_Union": "Khyber Union",
-        "Student_Creativity": "Students Creativity Corner (SCC)",
+        "Co-Curricular": "",
+        "Sports": "//a[@href='https://icp.edu.pk/page.php?abc=201511030539396']",
+        "Khyber_Union": "Chief Organizer Societies",
+
+        "Student_Creativity": "//a[@href='https://icp.edu.pk/page.php?abc=201802280802216']",
 
         "Related_Links": "",
-        "Senior_Alumn": "",
-        "Cabinet_Senior_Alumni": "Cabinet of the Senior Alumni Association",
-        "Members_Alumni": "Members of Senior Alumni Association",
-        "SENIOR_ALUMNI_2017": "SENIOR ALUMNI ASSOCIATION TITLED SCHOLARSHIPS ACADEMIC YEAR 2017",
-        "SENIOR_ALUMNI_2016": "SENIOR ALUMNI ASSOCIATION TITLED SCHOLARSHIPS ACADEMIC YEAR 2016",
-        "SENIOR_ALUMNI_MEETIN2017": "SENIOR ALUMNI ASSOCIATION GENRAL MEETIN 2017",
-        "SENIOR_ALUMNI_MEETIN2016": "SENIOR ALUMNI ASSOCIATION GENRAL MEETIN 2016",
-        "SENIOR_ALUMNI_MEETIN201": "SENIOR ALUMNI ASSOCIATION GENRAL MEETIN 201",
-        "Constitution_Senior_Association": "Constitution of the Senior  Alumni Association",
-        "Senior_Alumni_ceremony": "Senior Alumni Association Oath taking ceremony",
+        "Senior_Alumn": "//a[@href='https://icp.edu.pk/page.php?abc=201803280504016']",
+        "Members_Alumni": "//a[@href='https://icp.edu.pk/images/saa/saa_members_2018.pdf']",
+        "SENIOR_ALUMNI_2017": "//a[@href='https://icp.edu.pk/images/saa/scholarship_2017.pdf']",
+        "SENIOR_ALUMNI_2016": "//a[@href='https://icp.edu.pk/images/saa/scholarship_2016.pdf']",
+        "SENIOR_ALUMNI_MEETIN201": "//a[@href='https://icp.edu.pk/old_gallery/index.php?abc=saa_genral_body_meeting_2015']",
 
-        "curicual": "",
-        "Memorandum": "",
-        "MPhil_Produced": "",
-        "Phd_Produced": "",
-        "Research_Publication": "",
-        "Dep_Wise": ""
+        "curicual": "//a[@href='page.php?abc=201505200443286']",
+        "Memorandum": "//a[@href='page.php?abc=201508070349184']",
+        "MPhil_Produced": "//a[@href='page.php?abc=201508070454074']",
+        "Phd_Produced": "//a[@href='page.php?abc=201508070458586']",
+        "Research_Publication": "//a[@href='page.php?abc=201508250533124']",
+        "Memo_under": "//a[@href='page.php?abc=201510200725276']",
+        "Dep_Wise": "//a[@href='page.php?abc=201608110503335']"
     },
 
     "Media": {
-        "ICP_Anthem": "ICP Official Anthem",
-        "Daily_News": "Daily News papers cuttings",
-        "Right_Info": "Right to Information Related Data",
-        "Video_Gallery": "Video Gallery of Islamia College Peshawar",
-        "Picture_Gallery": "Picture Gallery of Islamia College Peshawar",
+        "ICP_Anthem": "//a[@href='https://www.facebook.com/www.icp.edu.pk/videos/1050430944967683/']",
+        "Daily_News": "//a[@href='https://icp.edu.pk/notice/cutting.php']",
+        "Right_Info": "//a[@href='https://icp.edu.pk/page.php?abc=201608181052425']",
+        "Video_Gallery": "//a[@href='https://icp.edu.pk/page.php?abc=201504020513394']",
+        "Picture_Gallery": "//a[@href='https://icp.edu.pk/page.php?abc=201412240924466']",
 
         "Related_Links": ""
 
@@ -196,8 +213,8 @@
 
     "Contact": {
         "Contact_Us": "Contact Us",
-        "Contacts_Directory": "Contacts Directory",
-        "Address_ICP": "Address & Location Map of Islamia College Peshawar",
+        "Contacts_Directory": "//a[@href=https://icp.edu.pk/page.php?abc=201412290256225']",
+        "Address_ICP": "//a[@href='https://icp.edu.pk/page.php?abc=201412291157145']",
 
         "Related_Links": ""
     },
