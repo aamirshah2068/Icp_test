@@ -5,13 +5,13 @@
     },
 
     "Buttons": {
-        "Input_field": "",
-        "Search_btn": "",
-        "Facebook": "",
-        "ICP_Anthem_btn": "",
-        "Staff_Profile": "",
-        "Download": ""
-    },
+        "Input_field": "//*[@id='gsc-i-id1']",
+        "Search_btn": "//*[@class='gsc-search-button gsc-search-button-v2']",
+        "Facebook": "//*[@href='https://www.facebook.com/www.icp.edu.pk']",
+        "ICP_Anthem_btn": "//*[@ href='https://www.facebook.com/watch/?v=1050430944967683']",
+        "Staff_Profile": "//*[@href='https://icp.edu.pk/staff_directory/'']",
+        "Download": "//*[@href='https://icp.edu.pk/all_downloads/']"
+    },  
 
     "about": {
         "History": "//a[normalize-space()='History & Milestone']",
@@ -232,30 +232,34 @@
     "Contact": {
         "Contact_Us": "Contact Us",
         "Contacts_Directory": "//a[@href=https://icp.edu.pk/page.php?abc=201412290256225']",
-        "Address_ICP": "//a[@href='https://icp.edu.pk/page.php?abc=201412291157145']",
-
-        "Related_Links": ""
+        "Address_ICP": "//a[@href='https://icp.edu.pk/page.php?abc=201412291157145']"
     },
 
     "Carousel": {
-        "Rght": "",
-        "lft": ""
+        "Prev": "//a[@data-slide='prev']",
+        "Next": "//a[@data-slide='next']"
     },
 
     "New_Event": {
-
+        "Visiting_Leturer": "//*[@href='https://icp.edu.pk/images/notic_board/visiting_ad_shedule_2022.pdf']",
+        "MPhil_admission": "//*[@href='page.php?abc=202208020850206']",
+        "Date_sheet_MA": "//*[@href='https://icp.edu.pk/exams/upload/1656932939161877210ma_private_exam_2022.pdf']",
+        "Nominated_candidates": "//*[@href='https://icp.edu.pk/exams/upload/1656050045404070388nominated_senat_syndicate_list.pdf']",
+        "Interview": "//*[@href='page.php?abc=202206240534194']",
+        "Final_electoral": "//*[@href='https://icp.edu.pk/exams/upload/1655184372973267993New%20Doc%2006-10-2022%2010.08.pdf']",
+        "Registration": "//*[@href='page.php?abc=202205300117475']"
     },
 
     "Important_Link": {
-        "Journals": "",
-        "Central_Library": "",
-        "QEC": "",
-        "LMS": "",
-        "DITS": "",
-        "Tenders": "",
+        "Journals": "//*[@href='https://icp.edu.pk/page.php?abc=201502250602405']",
+        "Central_Library": "//*[@href='https://icp.edu.pk/page.php?abc=2013462412100524455']",
+        "QEC": "//*[@href='https://icp.edu.pk/page.php?abc=201412110938246']",
+        "LMS": "//*[@href='http://lms.icp.edu.pk/']",
+        "DITS": "//*[@href='https://icp.edu.pk/page.php?abc=201905090555484']",
+        "Tenders": "//*[@href='https://icp.edu.pk/notice/notice.php?abc=Tender']",
         "Press_Clippings": "",
-        "Scholarships_btn": "",
-        "Jobs": ""
+        "Scholarships_btn": "//a[@href='https://icp.edu.pk/page.php?abc=201511190452154']",
+        "Jobs": "//a[@href='https://icp.edu.pk/page.php?abc=201507240415036']"
     },
 
     "Footer": {

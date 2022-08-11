@@ -1,23 +1,12 @@
 import {button} from "../../support/PageObject/Button_section"
 
-describe('Testing links', () => {
-    it('Get all links status', () => {
-        cy.visit('')
-        cy.get('a').each(($el) => {
-            cy.request('')
-                .should((response) => {
-                    expect(response.status).to.eq(200)
-                })
-        });
-    });
-});
-
-describe("", () => {
+describe("Verify the funcionality of social buttons", () => {
     beforeEach('open application', () => {
         cy.visit('/')
+        cy.wait(7000)
         cy.contains('Button')
     })
-    it("Button Section drop down", () => {
+    it("Button Section", () => {
         button.btn()
     })
 })
