@@ -1,23 +1,10 @@
 import { carousel } from "../../support/PageObject/Carousel";
 
-describe('Testing links', () => {
-    it('Get all links status', () => {
-        cy.visit('')
-        cy.get('a').each(($el) => {
-            cy.request('')
-                .should((response) => {
-                    expect(response.status).to.eq(200)
-                })
-        });
-    });
-});
-
-describe("", () => {
+describe("Check the functionality of Carousel slider", () => {
     beforeEach('open application', () => {
         cy.visit('/')
-        cy.contains('')
     })
-    it("", () => {
+    it("Carousel Slider", () => {
         carousel.carou()
     })
 })
