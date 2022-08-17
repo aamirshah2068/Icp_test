@@ -9,7 +9,7 @@
         "Search_btn": "//*[@class='gsc-search-button gsc-search-button-v2']",
         "Facebook": "//*[@href='https://www.facebook.com/www.icp.edu.pk']",
         "ICP_Anthem_btn": "//*[@ href='https://www.facebook.com/watch/?v=1050430944967683']",
-        "Staff_Profile": "//*[@href='https://icp.edu.pk/staff_directory/'']",
+        "Staff_Profile": "//a[@href='https://icp.edu.pk/staff_directory/']",
         "Download": "//*[@href='https://icp.edu.pk/all_downloads/']"
     },  
 

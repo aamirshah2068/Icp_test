@@ -14,7 +14,7 @@ describe('Testing links', () => {
 
 describe("Examination Test", () => {
     beforeEach('open application', () => {
-        cy.visit('/')
+        await cy.visit('/')
         cy.contains('Examination')
     })
     it("Examination", () => {

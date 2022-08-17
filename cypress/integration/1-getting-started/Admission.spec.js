@@ -14,10 +14,16 @@ describe('Testing links', () => {
 
 describe("Admission Test", () => {
     beforeEach('open application', () => {
-        cy.visit('/')
+       await cy.visit('/')
         cy.contains('Admission')
     })
     it("Admission drop down", () => {
         admission.admin()
+    })
+    it("Admission Admission.Apply_FA", () => {
+        admission.FA()
+    })
+    it("Admission Admission.Apply_BA", () => {
+        admission.BA()
     })
 })

@@ -75,7 +75,7 @@ class Administration {
         cy.buttonClick(selectors.Administration.Provost_Link)
         cy.contains(/PROVOST OFFICE/i).should('be.visible')
 
-        
+
         // Chief Proctor Dropdown items
         cy.buttonClick(selectors.Administration.Chief_Proct)
         cy.contains(/PROCTORIAL BOARD/i).should('be.visible')
@@ -120,10 +120,16 @@ class Administration {
         cy.buttonClick(selectors.Administration.Research_funding_Link)
         cy.contains(/RESEARCH FUNDING OPPORTUNITIES/i).should('be.visible')
 
-        // cy.buttonClick(selectors.Administration.List_funded_Link)           //Pdf is open but the next test can't execute
-
         cy.buttonClick(selectors.Administration.Staff_ORIC_Link)
         cy.contains(/STAFF DIRECTORY ORIC/i).should('be.visible')
+    }
+
+    List() {
+        cy.buttonClick(selectors.Administration.admin)
+        cy.contains(/Administration/i).should('be.visible')
+
+        cy.buttonClick(selectors.Administration.ORIC)
+        cy.buttonClick(selectors.Administration.List_funded_Link)           //Pdf 
     }
 }
 export const administration = new Administration()

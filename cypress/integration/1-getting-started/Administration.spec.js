@@ -14,10 +14,13 @@ describe('Testing links', () => {
 
 describe("Verify that the Administration drop down items are accessible", () => {
     beforeEach('open application', () => {
-        cy.visit('/')
+      await cy.visit('/')
         cy.contains('Administration')
     })
     it("Administration drop down", () => {
         administration.admin()
+    })
+    it.only("ORIC drop down pdf", () => {
+        administration.List()
     })
 })

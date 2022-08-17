@@ -42,5 +42,21 @@ class Achievements {
         cy.buttonClick(selectors.Achievements.Dep_Wise)
         cy.contains(/DEPARTMENT/i).should('be.visible')
     }
+
+
+    // Senior alumi drop down related links that contains pdf    
+    senior(){
+        cy.buttonClick(selectors.Achievements.Senior_Alumni)
+        cy.contains('Cabinet of the Senior Alumni Association').should('be.visible')
+        cy.buttonClick(selectors.Achievements.Members_Alumni)           //PDF
+    }
+
+    Alumni2017(){
+        cy.buttonClick(selectors.Achievements.SENIOR_ALUMNI_2017)       //PDF
+    }
+
+    Alumni2016(){
+        cy.buttonClick(selectors.Achievements.SENIOR_ALUMNI_2016)       //PDF
+    }
 }
 export const achievements = new Achievements()

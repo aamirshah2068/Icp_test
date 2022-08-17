@@ -14,11 +14,22 @@ describe('Testing links', () => {
 
 describe("Achievements Test", () => {
     beforeEach('open application', () => {
-        cy.visit('/')
-        cy.wait(6000)
+        await cy.visit('/')
         cy.contains('Achievements')
     })
     it("Achievements drop down", () => {
         achievements.Achieve()
+    })
+
+    it("Senior_Alumni", () => {
+        achievements.senior()
+    })
+
+    it("SENIOR_ALUMNI_2017", () => {
+        achievements.Alumni2017()
+    })  
+
+    it("SENIOR_ALUMNI_2016", () => {
+        achievements.Alumni2016()
     })
 })
