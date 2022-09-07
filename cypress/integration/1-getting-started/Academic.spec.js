@@ -14,7 +14,7 @@ describe('Testing links', () => {
 
 describe("Verify that the Academic drop down items are accessible", () => {
     beforeEach('open application', () => {
-       await cy.visit('/')
+        cy.visit('/')
         cy.contains('Academic')
     })
     it("Academic drop down", () => {

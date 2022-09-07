@@ -14,7 +14,7 @@ describe('Testing links', () => {
 
 describe("Admission Test", () => {
     beforeEach('open application', () => {
-       await cy.visit('/')
+        cy.visit('/')
         cy.contains('Admission')
     })
     it("Admission drop down", () => {

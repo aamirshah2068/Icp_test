@@ -14,7 +14,7 @@ describe('Testing links', () => {
 
 context("Verify that the About drop down items are accessible", () => {
     beforeEach('open application', () => {
-        await cy.visit('/')
+        cy.visit('/')
         cy.contains('About')
     })
     it("About drop down items", () => {

@@ -14,7 +14,7 @@ describe('Testing links', () => {
 
 describe("Verify that the Administration drop down items are accessible", () => {
     beforeEach('open application', () => {
-      await cy.visit('/')
+        cy.visit('/')
         cy.contains('Administration')
     })
     it("Administration drop down", () => {

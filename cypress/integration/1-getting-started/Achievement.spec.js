@@ -14,7 +14,7 @@ describe('Testing links', () => {
 
 describe("Achievements Test", () => {
     beforeEach('open application', () => {
-        await cy.visit('/')
+        cy.visit('/')
         cy.contains('Achievements')
     })
     it("Achievements drop down", () => {

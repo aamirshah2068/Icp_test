@@ -20,4 +20,4 @@ class Footer{
     }
 }
 
-export const Footer = new Footer();
+export const footer = new Footer();
