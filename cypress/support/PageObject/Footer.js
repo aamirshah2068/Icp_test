@@ -1,7 +1,6 @@
 import selectors from "../selectors.json"
 class Footer{
     foter(){
-        cy.buttonClick(selectors.Footer.Home)
 
         cy.buttonClick(selectors.Footer.About_Us)
         cy.contains(/HISTORY OF ISLAMIA COLLEGE PESHAWAR/i).should('be.visible')

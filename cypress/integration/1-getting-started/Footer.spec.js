@@ -1,11 +1,10 @@
-import { Footer } from "../../support/PageObject/Footer";
+import { footer, Footer } from "../../support/PageObject/Footer";
 
-describe("Administration Test", () => {
+describe("Footer Test", () => {
     beforeEach('open application', () => {
         cy.visit('/')
-        cy.contains('Footer')
     })
     it("Footer drop down", () => {
-        Footer.foter()
+        footer.foter()
     })
 })

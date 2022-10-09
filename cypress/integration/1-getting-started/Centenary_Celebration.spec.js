@@ -14,7 +14,7 @@ describe('Testing links', () => {
 
 describe("Centenary_Celebration Test", () => {
     beforeEach('open application', () => {
-       await cy.visit('/')
+       cy.visit('/')
         cy.wait(6000)
         cy.contains('Centenary Celebration')
     })

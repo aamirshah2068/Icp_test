@@ -2,7 +2,7 @@ import { newevent } from "../../support/PageObject/New_Event"
 
 describe("New_Events Test", () => {
     beforeEach('open application', () => {
-       await cy.visit('/')
+       cy.visit('/')
     })
     it("NewEvent", () => {
         newevent.News()

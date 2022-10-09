@@ -252,18 +252,17 @@
 
     "Important_Link": {
         "Journals": "//*[@href='https://icp.edu.pk/page.php?abc=201502250602405']",
-        "Central_Library": "//*[@href='https://icp.edu.pk/page.php?abc=2013462412100524455']",
-        "QEC": "//*[@href='https://icp.edu.pk/page.php?abc=201412110938246']",
-        "LMS": "//*[@href='http://lms.icp.edu.pk/']",
-        "DITS": "//*[@href='https://icp.edu.pk/page.php?abc=201905090555484']",
-        "Tenders": "//*[@href='https://icp.edu.pk/notice/notice.php?abc=Tender']",
-        "Press_Clippings": "",
+        "Central_Library": "//a[@href='https://icp.edu.pk/page.php?abc=2013462412100524455']",
+        "QEC": "//a[@href='https://icp.edu.pk/page.php?abc=201412110938246']",
+        "LMS": "//a[@href='http://lms.icp.edu.pk/']",
+        "DITS": "//a[@href='https://icp.edu.pk/page.php?abc=201905090555484']",
+        "Tenders": "//a[@href='https://icp.edu.pk/notice/notice.php?abc=Tender']",
+        "Press_Clippings": "//a[@href='https://icp.edu.pk/page.php?abc=201511190452154']",
         "Scholarships_btn": "//a[@href='https://icp.edu.pk/page.php?abc=201511190452154']",
         "Jobs": "//a[@href='https://icp.edu.pk/page.php?abc=201507240415036']"
     },
 
     "Footer": {
-        "Home": "",
         "About_Us": "//a[@href='http://www.icp.edu.pk/page.php?abc=201412080154134']",
         "Department": "//a[@href='http://www.icp.edu.pk/page.php?abc=201412241059034']",
         "Faclty": "//a[@href='http://www.icp.edu.pk/staff_directory/'']",
